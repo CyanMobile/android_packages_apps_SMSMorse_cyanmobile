@@ -35,7 +35,7 @@ public class EventReceiver extends BroadcastReceiver {
 	private static final int VIBRATE_CONTENT_SENDER         = 3;
 	
 	//Preference defaults
-	private static final boolean DEFAULT_ENABLED         = true;
+	private static final boolean DEFAULT_ENABLED         = false;
 	private static final String  DEFAULT_VIBRATE_PARTS   = Integer.toString(VIBRATE_CONTENT_MESSAGE);
 	private static final boolean DEFAULT_VIBRATE_COUNTS  = false;
 	private static final int     DEFAULT_DOT_LENGTH      = 150;
